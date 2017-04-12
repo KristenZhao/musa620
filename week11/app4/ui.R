@@ -8,7 +8,7 @@ fluidPage(
   sidebarLayout(
     sidebarPanel(
       numericInput("num_points", "How Many Random Numbers Should be Plotted?", 
-                   value = 1000, min = 1, max = 1000, step = 1),
+                   value = 1000, min = 1, max = 1000, step = 20),
       sliderInput("sliderX", "Pick Minimum and Maximum X Values",
                   -100, 100, value = c(-50, 50)),
       sliderInput("sliderY", "Pick Minimum and Maximum Y Values",

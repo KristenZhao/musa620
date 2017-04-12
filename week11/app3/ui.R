@@ -7,11 +7,11 @@ fluidPage(
   sidebarLayout(
     sidebarPanel(
       h1("Move the Slider!"),
-      sliderInput("slider1", "Slide Me!", 0, 100, 0)
+      sliderInput("slider1", "Slide Me!", 0, 100, 75)
     ),
     mainPanel(
       h3("Slider Value:"),
-      textOutput("text")
+      textOutput("text") # corresponds to output$text in server.R
     )
   )
 )
