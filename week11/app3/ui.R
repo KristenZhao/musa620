@@ -11,7 +11,8 @@ fluidPage(
     ),
     mainPanel(
       h3("Slider Value:"),
-      textOutput("text") # corresponds to output$text in server.R
+
+      textOutput("starfish")
     )
   )
 )
