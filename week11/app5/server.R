@@ -8,7 +8,7 @@ function(input, output) {
     if(input$country == "USA"){
       selectInput("state", "Which state do you live in?", choices = usa_abb)
     } else if (input$country == 'China'){
-      selectInput('pt','WHich province or terrotory do you live in?', choices = china_abb)
+      selectInput('pt','Which province or terrotory do you live in?', choices = china_abb)
     }
     else {
       selectInput("pt", "Which province or territory do you live in?", choices = canada_abb)

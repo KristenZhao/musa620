@@ -3,8 +3,8 @@ library(shinythemes)
 library(shinytoastr)
 
 navbarPage("Cinnamon",
-  shinythemes::themeSelector(),
-  #theme = shinythemes::shinytheme("united"),
+  #shinythemes::themeSelector(),
+  theme = shinythemes::shinytheme("slate"),
   useToastr(),
   tabPanel("Toast",
     sidebarLayout(
